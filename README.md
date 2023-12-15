@@ -1,2 +1,12 @@
 # Do or Die
-simple to-do list project uses static 
+d.o.d Do or Die is a simple todo list app to help you keep track of tasks you need to get done.
+
+# Built With
+
+    1. HTML
+    2. CSS
+    3. react
+
+
+# Author
+add soon 
