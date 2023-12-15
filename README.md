@@ -1,2 +1,2 @@
-# dod
-simple to-do list project just use static 
+# Do or Die
+simple to-do list project uses static 
