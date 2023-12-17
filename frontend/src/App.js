@@ -5,14 +5,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home/home";
 import Layout from "./components/layout/layout";
 import List from "./components/list/list";
+import AddTask from "./components/addTask/addTask";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-            <Route index element={<Home/>} />
-            <Route path="list" element={<List />} />
+            {/* <Route index element={<Home/>} /> */}
+            <Route path="add/:id" element={<AddTask />} />
+            <Route path="add" element={<AddTask />} />
+            <Route path="" element={<List />} />
         </Route>
       </Routes>
     </BrowserRouter>
