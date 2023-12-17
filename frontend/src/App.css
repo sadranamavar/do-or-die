@@ -22,3 +22,26 @@
 .text-4 {
   color: #ddf2f2;
 }
+.main-dev {
+  overflow: scroll;
+}
+
+.main-dev::-webkit-scrollbar {
+  width: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
