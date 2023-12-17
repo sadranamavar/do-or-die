@@ -1,0 +1,10 @@
+.add-icon {
+    width: 2.5rem;
+}
+
+.add-btn {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 100rem;
+}
