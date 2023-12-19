@@ -3,11 +3,12 @@ import Task from "./task/task";
 const Tasks = () => {
   const tasks = [];
   for (let i = 0; i < localStorage.length; i++) {
-    if (i === 0) {
+    if (localStorage.key(i) === "last-id") {
       continue;
     }
+    else{
     const item = JSON.parse(localStorage.getItem(localStorage.key(i)));
-    tasks.push(item);
+    tasks.push(item);}
   }
 
   return (
