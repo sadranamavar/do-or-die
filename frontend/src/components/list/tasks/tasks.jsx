@@ -12,11 +12,9 @@ const Tasks = () => {
     } 
     else {
       const item = JSON.parse(localStorage.getItem(localStorage.key(i)));
-      console.log(item.date ?(( new Date(item.date))-getNow()): "")
       if (item.status && ((item.date ?(( new Date(item.date))-getNow()): false)<0)){
         localStorage.removeItem(localStorage.key(i))
       }
-      // console.log(getNow())
       tasks.push(item);
     }
   }
