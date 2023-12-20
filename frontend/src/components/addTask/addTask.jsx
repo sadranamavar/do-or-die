@@ -21,7 +21,7 @@ const AddTask = () => {
   const [date, setDate] = useState(item ? item.date : "");
 
   return (
-    <div className="p-3">
+    <div className="p-3 pb-5 mb-5">
       <Title props={[title, setTitle]} />
       <Text props={[text, setText]} />
       <Time props={[time, setTime]} />
