@@ -6,6 +6,7 @@ import Home from "./components/home/home";
 import Layout from "./components/layout/layout";
 import List from "./components/list/list";
 import AddTask from "./components/addTask/addTask";
+import Settings from "./components/settings/settings";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="add/:id" element={<AddTask />} />
             <Route path="add" element={<AddTask />} />
             <Route path="" element={<List />} />
+            <Route path="/settings" element={<Settings />}/>
         </Route>
       </Routes>
     </BrowserRouter>
