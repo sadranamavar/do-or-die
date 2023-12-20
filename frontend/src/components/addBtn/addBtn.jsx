@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const AddBtn = () => {
   return (
-    <Link to={"/add"} className="add-btn bg-2 shadow-sm">
+    <Link to={"/add"} className="add-btn bg-2 ">
       <img src={icon} alt="" className="add-icon" />
     </Link>
   );
