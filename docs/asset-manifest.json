@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c3a6f43.css",
-    "main.js": "/static/js/main.62cc3200.js",
+    "main.css": "/static/css/main.27b085be.css",
+    "main.js": "/static/js/main.3bde48ab.js",
+    "static/media/icons8-home.svg": "/static/media/icons8-home.0dcbca776cb37a0e484dcc6caf343f97.svg",
+    "static/media/icons8-settings.svg": "/static/media/icons8-settings.2d7fe5cb74a428e2b0ed4d520f573bdf.svg",
     "static/media/edit.svg": "/static/media/edit.595309b570ace972b90f9c96507ec917.svg",
     "index.html": "/index.html",
     "static/media/checkmark-svgrepo-com.svg": "/static/media/checkmark-svgrepo-com.1edfad63dad050b77b14ddbbe01c13ad.svg",
     "static/media/plus-large-svgrepo-com.svg": "/static/media/plus-large-svgrepo-com.082e2772df22152124764e3c41380135.svg",
-    "main.1c3a6f43.css.map": "/static/css/main.1c3a6f43.css.map",
-    "main.62cc3200.js.map": "/static/js/main.62cc3200.js.map"
+    "main.27b085be.css.map": "/static/css/main.27b085be.css.map",
+    "main.3bde48ab.js.map": "/static/js/main.3bde48ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c3a6f43.css",
-    "static/js/main.62cc3200.js"
+    "static/css/main.27b085be.css",
+    "static/js/main.3bde48ab.js"
   ]
 }
